@@ -1,0 +1,92 @@
+body {
+	margin: 0 auto;
+	text-align: center;
+}
+
+hr {
+	-moz-border: none;
+	-o-border: none;
+	-webkit-border: none;
+	background-color: #5A5D73;
+	color: #5A5D73;
+	height: 2px;
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+h1 {
+	color: #efefef;
+	font-family: Roboto, serif;
+	margin: 110px auto 30px auto;
+	max-width: 1170px;
+	text-transform: uppercase;
+	font-size: 4em;
+}
+
+header {
+	background: url(/home/whoiam/Documents/homeworks2/control_version/img/mdems.png);
+	background-color: #2c2f49;
+	margin: 0 auto;
+}
+
+#description_header {
+	color: #E2E1D3;
+	font-family:  Cousine, serif;
+	font-size: 1.7em;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+a {
+	color: #EAE9E3;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.navi1 {
+	display: inline-block;
+	height: 54px;
+	line-height: 54px;
+	position: relative;
+	right: 225px;
+	top: 5px;
+}
+#active {
+	color: #5A5D73;
+	font-family: 'Arial Black', serif;
+	font-size: 2.4em;
+	font-weight: bold;
+}
+.navi2 {
+	font-family: Roboto, serif;
+	bottom: 5px;
+	display: inline-block;
+	height: 54px;
+	left: 225px;
+	line-height: 54px;
+	position: relative;
+}
+
+span {
+	color: #EAE9E3;
+	font-family: Arial, serif;
+}
+
+article {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+#search_more {
+	color: #EAE9E3;
+	background-color: #CF2E2E;
+	border: none;
+	width: 150px;
+	height: 70px;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
