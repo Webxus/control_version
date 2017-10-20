@@ -90,3 +90,6 @@ article {
 	text-transform: uppercase;
 	margin: 10px 0;
 }
+#search_more:hover {
+	background-color: #323147;
+}
