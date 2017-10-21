@@ -2,12 +2,12 @@ hr, h1, nav, article, .toolsWeb {
 	max-width: 1280px;
 }
 
-body, header, hr, nav, article, .toolsWeb {
+body, header, hr, nav, article, .toolsWeb, .presentation {
 	margin: 0 auto;
 	text-align: center;
 }
 
-header, .toolsWeb {
+header, .toolsWeb, .presentation {
 	height: 720px;
 }
 
