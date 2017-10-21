@@ -2,7 +2,7 @@ hr, h1, nav, article, .toolsWeb, .block_contact_size {
 	max-width: 1280px;
 }
 
-body, header, hr, nav, article, .toolsWeb, .presentation, .block_contact_size{
+body, header, hr, nav, article, footer, .toolsWeb, .presentation, .block_contact_size{
 	margin: 0 auto;
 	text-align: center;
 }
@@ -22,17 +22,23 @@ header, .toolsWeb, .presentation {
 }
 
 .picline img{
-	max-width: 24.2%;
 	height: 360px;
 	margin: 0 auto;
-	padding: 0;
+	max-width: 24.8%;
+	vertical-align: middle;
+}
+
+.picline img:hover {
+	-webkit-transition: 0.5s ease-in-out;
+	opacity: 0.5;
+	transition: 0.5s ease-in-out;
 }
 
 hr {
 	-moz-border: none;
 	-o-border: none;
 	-webkit-border: none;
-	background-color: #5A5D73;
+	background-color: #3A3E64;
 	color: #5A5D73;
 	height: 2px;
 }
@@ -40,19 +46,19 @@ hr {
 h1 {
 	color: #efefef;
 	font-family: Roboto, serif;
+	font-size: 4em;
 	margin: 110px auto 20px auto;
 	text-transform: uppercase;
-	font-size: 4em;
 }
 
 h4 {
-	text-transform: uppercase;
 	margin: 10px auto;
+	text-transform: uppercase;
 }
 
 header {
 	background: url(/home/whoiam/Documents/homeworks2/control_version/img/mdems.png);
-	background-color: #2c2f49;
+	background-color: #3A3E64;
 }
 
 #description_header {
@@ -88,9 +94,9 @@ a {
 }
 
 .navi2 {
-	font-family: Roboto, serif;
 	bottom: 5px;
 	display: inline-block;
+	font-family: Roboto, serif;
 	height: 54px;
 	left: 225px;
 	line-height: 54px;
@@ -98,7 +104,7 @@ a {
 }
 
 a:hover {
-	color: #E64141;
+	color: #E84545;
 }
 
 span {
@@ -107,7 +113,7 @@ span {
 }
 
 #search_more {
-	background-color: #CF2E2E;
+	background-color: #E84545;
 	border: none;
 	bottom: 70px;
 	color: #EAE9E3;
@@ -121,13 +127,13 @@ span {
 }
 
 #search_more:hover {
-	background-color: #323147;
+	background-color: #2CA3F2;
 }
 
 .block {
 	display: inline-block;
-	max-width: 32.8%;
 	height: 490px;
+	max-width: 32.8%;
 }
 
 .block article{
@@ -135,27 +141,45 @@ span {
 }
 
 .block_contact {
-	background-color: #2c2f49;
+	background-color: #3A3E64;
 	color: #EAE9E3;
-	height: 210px;
 	font-size: 0.8em;
 }
 
 .block_contact_size section{
 	display: inline-block;
 	max-width: 33.1%;
+	vertical-align: top;
 }
 
 .block_contact_size img{
-	height: 40px;
+	height: 30px;
 }
 
 .block_contact_size img:hover {
 	background-color: #2CA3F2;
 }
 
+.block_contact_size h4 {
+	font-size: 1.5em;
+}
+
 .block_contact_size h4, .block_contact_size article {
-	display: block;
-	max-width: 210px;
 	margin: 30px;
+	max-width: 210px;
+}
+
+footer {
+	background-color: #313454;
+	color: #808080;
+	font-size: 1.2em;
+	height: 50px;
+}
+
+#creater {
+	color: #FFFFFF;
+}
+
+#heart {
+	height: 20px;
 }
