@@ -1,6 +1,31 @@
-body {
+hr, h1, nav, article, .toolsWeb {
+	max-width: 1280px;
+}
+
+body, header, hr, nav, article, .toolsWeb {
 	margin: 0 auto;
 	text-align: center;
+}
+
+header, .toolsWeb {
+	height: 720px;
+}
+
+.toolsWeb {
+	bottom: 150px;
+	position: relative;
+	top: 150px;
+}
+
+.picline {
+	display: inline-block;
+}
+
+.picline img{
+	max-width: 24.2%;
+	height: 360px;
+	margin: 0 auto;
+	padding: 0;
 }
 
 hr {
@@ -10,43 +35,42 @@ hr {
 	background-color: #5A5D73;
 	color: #5A5D73;
 	height: 2px;
-	margin: 0 auto;
-	max-width: 1170px;
 }
 
 h1 {
 	color: #efefef;
 	font-family: Roboto, serif;
-	margin: 110px auto 30px auto;
-	max-width: 1170px;
+	margin: 110px auto 20px auto;
 	text-transform: uppercase;
 	font-size: 4em;
+}
+
+h4 {
+	text-transform: uppercase;
+	margin: 10px auto;
 }
 
 header {
 	background: url(/home/whoiam/Documents/homeworks2/control_version/img/mdems.png);
 	background-color: #2c2f49;
-	margin: 0 auto;
 }
 
 #description_header {
 	color: #E2E1D3;
-	font-family:  Cousine, serif;
+	font-family:  Roboto, serif;
 	font-size: 1.7em;
-}
-
-nav {
-	margin: 0 auto;
-	max-width: 1170px;
+	letter-spacing: 3px;
 }
 
 a {
 	color: #EAE9E3;
+	cursor: pointer;
 	font-size: 0.9em;
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
 .navi1 {
 	display: inline-block;
 	height: 54px;
@@ -55,12 +79,14 @@ a {
 	right: 225px;
 	top: 5px;
 }
+
 #active {
 	color: #5A5D73;
 	font-family: 'Arial Black', serif;
 	font-size: 2.4em;
 	font-weight: bold;
 }
+
 .navi2 {
 	font-family: Roboto, serif;
 	bottom: 5px;
@@ -70,28 +96,40 @@ a {
 	line-height: 54px;
 	position: relative;
 }
+
 a:hover {
 	color: #E64141;
 }
+
 span {
 	color: #EAE9E3;
 	font-family: Arial, serif;
 }
 
-article {
-	margin: 0 auto;
-	max-width: 1170px;
-}
-
 #search_more {
-	color: #EAE9E3;
 	background-color: #CF2E2E;
 	border: none;
-	width: 150px;
-	height: 70px;
+	bottom: 70px;
+	color: #EAE9E3;
+	cursor: pointer;
+	font-size: 1.1em;
+	height: 90px;
+	margin: 120px 0;
+	position: relative;
 	text-transform: uppercase;
-	margin: 10px 0;
+	width: 250px;
 }
+
 #search_more:hover {
 	background-color: #323147;
+}
+
+.block {
+	display: inline-block;
+	max-width: 32.8%;
+	height: 490px;
+}
+
+.block article{
+	margin: 40px;
 }
